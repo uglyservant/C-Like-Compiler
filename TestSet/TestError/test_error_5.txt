@@ -1,0 +1,14 @@
+main {
+var a, b;
+procedure first;
+	var a, b    /****error****/
+	{
+		a = 5;
+		b = 6;
+		write(a, b);
+	}
+
+{
+	call first;
+}
+}

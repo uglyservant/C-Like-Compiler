@@ -1,0 +1,14 @@
+main {
+const N = 10;
+var x[N], i, sum;
+{
+	i = 9;
+    sum = 0;
+    repeat {
+        x[i] = i;
+        sum = sum + x[i];
+		i = i - 1;
+    } until (i == 0);
+    write(sum);
+}
+}

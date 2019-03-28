@@ -1,0 +1,21 @@
+main {
+var x, y;
+{
+	read(x);
+	while (x < 10) do {
+		y = 11;
+		repeat {
+			if (x == 4) then
+				break;
+			if (y % 2 == 0) then {
+				y = y + 1;
+				continue;
+			}
+			write(y); 
+			y = y + 1;
+		} until (y > 20);
+		write(x);
+		x = x + 1;
+	}
+}
+}

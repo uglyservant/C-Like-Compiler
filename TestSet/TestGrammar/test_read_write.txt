@@ -1,0 +1,11 @@
+main {
+const a = -1;
+var x, y;
+
+{
+	read(x, y);
+	write(x*x, y*y);
+	write(1*2);
+	write(a*2);
+}
+}

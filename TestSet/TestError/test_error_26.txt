@@ -1,0 +1,45 @@
+main {
+/**** level exceeded ***/
+
+procedure first;
+	var a, b;
+	
+	procedure second;
+		var a, b;
+		
+		procedure third;
+			var a, b;
+			
+			procedure forth;
+				var a, b;
+			{
+				a = 5;
+				b = 6;
+				write(a);
+				write(b);
+			}
+		{
+			a = 5;
+			b = 6;
+			write(a);
+			write(b);
+		}
+	{
+		a = 5;
+		b = 6;
+		write(a);
+		write(b);
+	}
+	
+{
+	a = 5;
+	b = 6;
+	write(a);
+	write(b);
+}
+
+/* main procedure */
+{
+	call first;
+}
+}

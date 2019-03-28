@@ -1,0 +1,18 @@
+main {
+var x, y;
+{
+	read(x);
+	do {
+		x = x + 1;
+		if (x == 4) then
+			break;
+		else if (x == 6) then
+			continue;
+		write(x);
+			while (x > 7) do {
+				break;
+			}
+	} while (x < 10);
+	write(0);
+}
+}
